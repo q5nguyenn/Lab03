@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <section>
+            <fieldset>
+                <legend>Yourdetail</legend>
+                Name: <input type="text" name=""><br>
+                Email: <input type="email" name="">
+            </fieldset>
+        </section>
+        <section>
+            <fieldset>
+                <legend>Your Review:</legend>
+                How did you hear about us?
+                <select>
+                    <option>Google</option>
+                    <option>Facebook</option>
+                    <option>Youtube</option>
+                </select><br>
+                Would you visit again?
+                <input type="radio" name="choose">Yes
+                <input type="radio" name="choose">No
+                <input type="radio" name="choose">Maybe<br>
+                Comments:
+                <textarea cols="30" rows="3"></textarea><br>
+                <input type="checkbox" name="">Sign me up for email updates
+                <input type="submit" name="" value="Submit review">
+            </fieldset>
+        </section>
+        <section>
+            <h2>TEXT AREA</h2>
+            <textarea cols="40" rows="5" placeholder="Nhập nội dung của bạn"></textarea>
+            <hr>
+        </section>
+        <section>
+            <p>Username:
+            <input type="text" name="">
+            <hr>
+            </p>
+        </section>
+        <section>
+            <h2>SUMBIT BUTTON</h2>
+            <input type="text" name="">
+            <input type="submit" name="" value="Subscribe">
+        </section>
+        <section>
+            <h2>RADIO BUTTON</h2>
+            <p>
+                <input type="radio" name="favourite"> Rock
+                <input type="radio" name="favourite"> Pop
+                <input type="radio" name="favourite"> Jazz
+            </p>
+            <hr>
+        </section>
+        <section>
+            <h2>PASSWORD INPUT</h2>
+            <p>
+                Username:
+                <input type="text" name=""><br>
+                Password:&nbsp;
+                <input type="password" name="">
+                <hr>
+            </p>
+        </section>
+        <section>
+            <h2>LABELLING FORM CONTROLS</h2>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age"><br>
+            Gender: 
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <hr>
+        </section>
+        <section>
+            <h2>IMAGE BUTTON</h2>
+            <p>Subscribe to our email list:</p><br>
+            <input type="text" name="" style="float: left;">
+            <input type="image" name="" src="https://www.seekpng.com/png/full/433-4335449_white-subscribe-button-png-subscribe-button-png-transparent.png" width="100px" height="auto">
+            <hr>
+        </section>
+        <section>
+            <h2>URL INPUT</h2>
+            <p>Please enter your website address:</p>
+            <input type="url" name="" placeholder="google.com.vn">
+            <input type="submit" name="" value="Submit">
+            <hr>
+        </section>
+        <section>
+            <h2>SEARCH INPUT</h2>
+            <input type="search" name="">
+            <input type="submit" name="">
+            <hr>
+        </section>
+        <section>
+            <h2>SEARCH INPUT</h2>
+            <input type="search" name="" placeholder="Nhập vào từ khoá">
+            <input type="submit" name="">
+            <hr>
+        </section>
+        <section>
+            <h2>FORM VALIDATION</h2>
+            <p>
+                Username:
+                <input type="text" name="" required required><br>
+                Password:&nbsp;
+                <input type="password" name="" required>
+                <hr>
+            </p>
+        </section>
+        <section>
+            <h2>DATE INPUT</h2>
+            Departure date:
+            <input type="date" name="">
+            <input type="submit" name="" value="Submit">
+        </section>
+        <section>
+            <h2>GROUPING FORM ELEMENTS</h2>
+            <fieldset>
+                <legend>Contact details</legend>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" name=""></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td><input type="text" name=""></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone</td>
+                        <td><input type="text" name=""></td>
+                    </tr>
+                </table>
+                <hr>
+            </fieldset>
+        </section>
+        <section>
+            <h2>FILE INPUT</h2>
+            Upload your song in MP3 format:
+            <input type="file" name="">
+            <input type="submit" name="" value="Upload">
+            <hr>
+        </section>
+        <section>
+            <h2>DROP DOWN LIST BOX</h2>
+            <select>
+                <option>Ipod</option>
+                <option>Radio</option>
+                <option selected>Computer</option>
+            </select>
+            <hr>
+        </section>
+        <section>
+            <h2>CHECK BOX</h2>
+            Please select your favourite music service(s):
+            <input type="checkbox" name="">ITunes
+            <input type="checkbox" name="">Last.fm
+            <input type="checkbox" name="">Spotify
+            <hr>
+        </section>
+        <section>
+            <h2>BUTTON AND HIDDEN CONTROLS</h2>
+            <button><img src="https://www.seekpng.com/png/full/433-4335449_white-subscribe-button-png-subscribe-button-png-transparent.png" width="100px" height="auto"></button>
+            <input type="hidden" name="">
+        </section>
+    </form>
+</body>
+</html>
