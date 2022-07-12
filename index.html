@@ -7,35 +7,51 @@
     <style type="text/css">
         body{
             margin: 0;
-            width: 100%;
             font-family: tahoma;
-        }
-        h2{
-            background-color: #04AA6D;
-            color: white;
+            overflow: auto;
         }
         nav{
             background-color: #f1f1f1;
+           width: 25%;
+           position: fixed;
+           height: 100%;
+
+        }
+    
+        li {
+            padding: 5px 15px;
+        }
+
+        ul{
+            
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul :hover{
+            background-color: #555;
+            color: white;
+        }
+        main{
+            position: relative;
+            left: 25%;
+            height: 1000px;
+            /*position: absolute;*/
+            width: 75%
+        }
+        h2{
+            height: 35px;
+            background-color: #FFA07A;
+            color: white;
+            margin: 0;
         }
         a{
             text-decoration: none;
-        }
-        li {
-            
-            border-bottom: 2px solid white;
-        }
-        ul{
-            padding-left: 20px;
-        }
-        li:hover{
-            background-color: darkgray;
+            color: black;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1 style="text-align: center;">BÀI TẬP VỀ HTML</h1>
-    </header>
     <nav>
         <h2>LINK</h2>
         <ul>
@@ -60,5 +76,20 @@
             <li><a href="./4-form/form.html">Form</a></li>
         </ul>
     </nav>
+    <main>
+        <h2 style="text-align: center; background-color:Orange;">NỘI DUNG</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </main>
 </body>
 </html>
